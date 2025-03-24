@@ -12,7 +12,6 @@ const NavBar = () => {
         </div>
         <ul className='flex gap-5 mx-5'>
           <li className='cursor-pointer hover:font-bold transition-all duration-75'>Home</li>
-          <li className='cursor-pointer hover:font-bold transition-all duration-75'>My Tasks</li>
         </ul>
       </nav>
     </div>
