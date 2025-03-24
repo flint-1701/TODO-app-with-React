@@ -82,7 +82,7 @@ const Body = () => {
       <div className='container mx-auto my-5 rounded-xl p-5 bg-violet-200 min-h-screen'>      
         <div className="container flex flex-col items-center"> 
         <h1 className='font-bold'>My Todos</h1>  
-        <input onChange={handleChange} className={`rounded-lg py-2 w-1/2 px-2 my-3 shadow-md1 focus:animate-bounce`} type='text' value={todo} />
+        <input onChange={handleChange} className={`rounded-lg py-2 w-1/2 px-2 my-3 shadow-md1 `} type='text' value={todo} />
         <button onClick = {handleAdd} disabled={todo.length<=3} className='bg-violet-500 hover:bg-violet-700 shadow-md text-white rounded-lg  w-1/2 mx-2 px-4 py-2 disabled:bg-gray-500 hover:cursor-pointer'>Add</button>
         </div>       
         
